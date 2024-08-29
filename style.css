@@ -1,0 +1,190 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+/* Header */
+header {
+    background-color: #0d8637;
+    padding: 15px 20px;
+    margin: 0.1%;
+}
+
+header .logo {
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
+    display: inline-block;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+}
+.b1:hover{
+    color:black;
+}
+
+
+.hero {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    background-color: #1ba94c;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    cursor:pointer;
+}
+.b2:hover{
+    color:#1ba94c;
+    background-color:black;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+}
+.practice {
+    padding: 45px 20px;
+}
+
+.practice h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    color:  #016f27;
+
+}
+
+.problem-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    text-decoration: none;
+}
+.problem-card {
+    
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px #1ba94c;
+    text-align: center;
+    font-size: 110%;
+    cursor: pointer;
+}
+.problem-card:hover {
+    font-size: 20px;
+    box-shadow: 0 0 15px #00792a;
+}
+
+
+.compete {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.compete h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #016f27;
+}
+
+.competition-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.competition-card {
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 0 10px #1ba94c;
+    text-align: center;
+}
+.competition-card:hover {
+    font-size: 20px;
+    box-shadow: 0 0 15px #00792a;
+}
+
+
+
+.jobs {
+    padding: 40px 20px;
+}
+
+.jobs h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #016f27;
+}
+
+.job-list {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 25px;
+}
+
+.job-card {
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+    min-width: 200px;
+    box-shadow: 0 0 10px #1ba94c;
+    text-align: center;
+    font-weight: 600;
+}
+
+.job-card:hover {
+    font-size: 20px;
+    box-shadow: 0 0 15px #00792a;
+}
+/* Footer */
+footer {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    margin: 0.1%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    font-size: 90%;
+}
+
+.footer-links a {
+    color: rgb(6, 169, 92);
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.b3:hover{
+    color: #fff;
+    font-size: 15px;
+}
